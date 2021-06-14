@@ -14,9 +14,11 @@
 ### [DeepVS](https://github.com/HansJinJym/CV_paper/tree/master/Fixation%20Prediction%20(FP)/DeepVS)
 - A Deep Learning Based Video Saliency Prediction Approach
 
-## [Generative Adversarial Networks (GAN)](https://github.com/HansJinJym/CV_paper/tree/master/GAN)
-### [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/GAN/StyleGAN)
-### [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/GAN/StyleGANv2)
+## [Generative Adversarial Networks (GAN)](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN))
+### [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN)
+- A Style-Based Generator Architecture for Generative Adversarial Networks
+### [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGANv2)
+- Analyzing and Improving the Image Quality of StyleGAN
 
 ## [Salient Object Detection (SOD)](https://github.com/HansJinJym/CV_paper/tree/master/Salient%20Object%20Detection%20(SOD))
 ### [ASNet](https://github.com/HansJinJym/CV_paper/tree/master/Salient%20Object%20Detection%20(SOD)/ASNet)

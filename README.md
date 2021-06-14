@@ -14,6 +14,10 @@
 ### [DeepVS](https://github.com/HansJinJym/CV_paper/tree/master/Fixation%20Prediction%20(FP)/DeepVS)
 - A Deep Learning Based Video Saliency Prediction Approach
 
+## [Generative Adversarial Networks (GAN)](https://github.com/HansJinJym/CV_paper/tree/master/GAN)
+### [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/GAN/StyleGAN)
+### [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/GAN/StyleGANv2)
+
 ## [Salient Object Detection (SOD)](https://github.com/HansJinJym/CV_paper/tree/master/Salient%20Object%20Detection%20(SOD))
 ### [ASNet](https://github.com/HansJinJym/CV_paper/tree/master/Salient%20Object%20Detection%20(SOD)/ASNet)
 - Salient Object Detection Driven by Fixation Prediction

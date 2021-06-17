@@ -20,6 +20,12 @@
 ### [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGANv2)
 - Analyzing and Improving the Image Quality of StyleGAN
 
+## [Key Points and Pose](https://github.com/HansJinJym/CV_paper/tree/master/Key%20Points%20and%20Pose)
+### [AlphaPose](https://github.com/HansJinJym/CV_paper/tree/master/Key%20Points%20and%20Pose/AlphaPose)
+- RMPE - Regional Multi-Person Pose Estimation
+### [OpenPose](https://github.com/HansJinJym/CV_paper/tree/master/Key%20Points%20and%20Pose/OpenPose)
+- Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
+
 ## [Salient Object Detection (SOD)](https://github.com/HansJinJym/CV_paper/tree/master/Salient%20Object%20Detection%20(SOD))
 ### [ASNet](https://github.com/HansJinJym/CV_paper/tree/master/Salient%20Object%20Detection%20(SOD)/ASNet)
 - Salient Object Detection Driven by Fixation Prediction

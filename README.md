@@ -36,6 +36,8 @@
 ### [VINet](https://github.com/HansJinJym/CV_paper/tree/master/Video%20Inpainting/VINet)
 - Deep Video Inpainting
 
-## Others
+## [Others](https://github.com/HansJinJym/CV_paper/tree/master/Others)
 ### [FlowNet](https://github.com/HansJinJym/CV_paper/tree/master/Others/FlowNet)
 - FlowNet: Learning Optical Flow with Convolutional Networks
+### [LSNet](https://github.com/HansJinJym/CV_paper/tree/master/Others/LSNet)
+- Location-Sensitive Visual Recognition with Cross-IOU Loss

@@ -15,6 +15,8 @@
 - A Deep Learning Based Video Saliency Prediction Approach
 
 ## [Generative Adversarial Networks (GAN)](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN))
+### [StyleGAN-Encoder](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN-Encoder)
+- Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?
 ### [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN)
 - A Style-Based Generator Architecture for Generative Adversarial Networks
 ### [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGANv2)

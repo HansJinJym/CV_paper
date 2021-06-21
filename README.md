@@ -34,9 +34,11 @@
 ### [LDF](https://github.com/HansJinJym/CV_paper/tree/master/Salient%20Object%20Detection%20(SOD)/LDF)
 - Label Decoupling Framework for Salient Object Detection
 
-## Transformer
+## [Transformer](https://github.com/HansJinJym/CV_paper/tree/master/Transformer)
 ### [Attention](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/Attention)
 - Attention is All You Need
+### [DETR](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/DETR)
+- End-to-End Object Detection with Transformers
 
 ## [Video Inpainting](https://github.com/HansJinJym/CV_paper/tree/master/Video%20Inpainting)
 ### [CPNet](https://github.com/HansJinJym/CV_paper/tree/master/Video%20Inpainting/CPNet)

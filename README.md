@@ -15,6 +15,11 @@
 - A Deep Learning Based Video Saliency Prediction Approach
 
 ## [Generative Adversarial Networks (GAN)](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN))
+### [MobileStyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/MobileStyleGAN)
+- MobileStyleGAN: A Lightweight Convolutional Neural Network for
+High-Fidelity Image Synthesis
+### [ProGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/ProGAN)
+- Progressive Growing of GANs for Improved Quality, Stability, and Variation
 ### [StyleGAN-Encoder](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN-Encoder)
 - Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?
 ### [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN)

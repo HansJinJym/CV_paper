@@ -12,29 +12,48 @@
 
 ## [Estimation](https://github.com/HansJinJym/CV_paper/tree/master/Estimation)
 - [AlphaPose](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/AlphaPose)
+	- RMPE: Regional Multi-Person Pose Estimation
 - [FlowNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FlowNet)
+	- FlowNet: Learning Optical Flow with Convolutional Networks
 - [OpenPose](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/OpenPose)
+	- Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
 
 ## [GAN](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FlowNet)
 - [AgileGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/AgileGAN)
+	- AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning
 - [Labels4Free](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/Labels4Free)
+	- Labels4Free: Unsupervised Segmentation using StyleGAN
 - [MobileStyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/MobileStyleGAN)
+	- MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis
 - [ProGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/ProGAN)
+	- Progressive Growing of GANs for Improved Quality, Stability, and Variation
 - [SeFa](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/SeFa)
+	- Closed-Form Factorization of Latent Semantics in GANs
 - [StyleGAN-Encoder](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN-Encoder)
+	- Image2StyleGAN - How to Embed Images Into the StyleGAN Latent Space
 - [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN)
+	- A Style-Based Generator Architecture for Generative Adversarial Networks
 - [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGANv2)
+	- Analyzing and Improving the Image Quality of StyleGAN
 
 ## [Inpainting](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting)
 - [CPNet](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting/CPNet)
+	- Copy-and-Paste Networks for Deep Video Inpainting
 - [VINet](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting/VINet)
+	- Deep Video Inpainting
 
 ## [Segmentation](https://github.com/HansJinJym/CV_paper/tree/master/Segmentation)
 - [ASNet](https://github.com/HansJinJym/CV_paper/tree/master/Segmentation/ASNet)
+	- Salient Object Detection Driven by Fixation Prediction
 - [DeepVS](https://github.com/HansJinJym/CV_paper/tree/master/Segmentation/DeepVS)
+	- DeepVS:  Deep Learning Based Video Saliency Prediction Approach
 - [LDF](https://github.com/HansJinJym/CV_paper/tree/master/Segmentation/LDF)
+	- Label Decoupling Framework for Salient Object Detection
 - [LSNet](https://github.com/HansJinJym/CV_paper/tree/master/Segmentation/LSNet)
+	- Location-Sensitive Visual Recognition with Cross-IOU Loss
 
 ## [Transformer](https://github.com/HansJinJym/CV_paper/tree/master/Transformer)
 - [Attention](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/Attention)
+	- Attention is All You Need
 - [DETR](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/DETR)
+	- End-to-End Object Detection with Transformers

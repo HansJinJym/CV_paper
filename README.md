@@ -21,6 +21,8 @@
 ## [GAN](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FlowNet)
 - [AgileGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/AgileGAN)
 	- AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning
+- [GFPGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/GFPGAN)
+	- Towards Real-World Blind Face Restoration with Generative Facial Prior
 - [Labels4Free](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/Labels4Free)
 	- Labels4Free: Unsupervised Segmentation using StyleGAN
 - [MobileStyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/MobileStyleGAN)

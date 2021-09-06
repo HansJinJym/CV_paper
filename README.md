@@ -15,6 +15,8 @@
 	- RMPE: Regional Multi-Person Pose Estimation
 - [FlowNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FlowNet)
 	- FlowNet: Learning Optical Flow with Convolutional Networks
+- [HandGraphCNN](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/HandGraphCNN)
+    - 3D Hand Shape and Pose Estimation from a Single RGB Image
 - [I2L-MeshNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/I2L-MeshNet)
     - I2L-MeshNet: Image-to-Lixel Prediction Network for Accurate 3D Human Pose and Mesh Estimation from a Single RGB Image
 - [MediaPipe](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/MediaPipe)

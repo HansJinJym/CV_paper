@@ -1,0 +1,28 @@
+2021-09-06 06:42:52,260 hand_shape_pose_inference INFO: EVAL:
+  DATASET: real_world_testset
+  PRINT_FREQ: 5
+  SAVE_BATCH_IMAGES_PRED: True
+  SAVE_DIR: ./output
+  SAVE_POSE_ESTIMATION: True
+GRAPH:
+  TEMPLATE_PATH: ./data/0214_lowP_vn_g.0001.obj
+MODEL:
+  BATCH_SIZE: 8
+  DEVICE: cpu
+  HOURGLASS:
+    NUM_FEAT_CHANNELS: 256
+    NUM_MODULES: 2
+    NUM_STAGES: 2
+  NUM_JOINTS: 21
+  NUM_WORKERS: 4
+  PRETRAIN_WEIGHT:
+    HM_NET_PATH: ./model/pretrained_models/net_hm.pth
+    MESH_NET_PATH: ./model/pretrained_models/net_feat_mesh.pth
+    POSE_NET_PATH: ./model/pretrained_models/net_mesh_pose.pth
+2021-09-06 06:42:52,367 hand_shape_pose_inference INFO: Layer 0: M_0 = |V| = 1280 nodes, |E| = 2845 edges
+2021-09-06 06:42:52,367 hand_shape_pose_inference INFO: Layer 1: M_1 = |V| = 640 nodes, |E| = 1734 edges
+2021-09-06 06:42:52,367 hand_shape_pose_inference INFO: Layer 2: M_2 = |V| = 320 nodes, |E| = 932 edges
+2021-09-06 06:42:52,367 hand_shape_pose_inference INFO: Layer 3: M_3 = |V| = 160 nodes, |E| = 490 edges
+2021-09-06 06:42:52,367 hand_shape_pose_inference INFO: Layer 4: M_4 = |V| = 80 nodes, |E| = 267 edges
+2021-09-06 06:42:52,482 hand_shape_pose_inference INFO: lmax: [1.5350166960729208, 1.3921939856604162, 1.1495376588217834, 1.008215594788647]
+2021-09-06 06:42:52,848 hand_shape_pose_inference INFO: Evaluate on 583 frames:

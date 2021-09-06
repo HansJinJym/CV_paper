@@ -1,0 +1,22 @@
+2021-09-06 06:56:06,407 hand_shape_pose_inference INFO: EVAL:
+  DATASET: real_world_testset
+  PRINT_FREQ: 5
+  SAVE_BATCH_IMAGES_PRED: True
+  SAVE_DIR: ./output
+  SAVE_POSE_ESTIMATION: True
+GRAPH:
+  TEMPLATE_PATH: ./data/0214_lowP_vn_g.0001.obj
+MODEL:
+  BATCH_SIZE: 8
+  DEVICE: cpu
+  HOURGLASS:
+    NUM_FEAT_CHANNELS: 256
+    NUM_MODULES: 2
+    NUM_STAGES: 2
+  NUM_JOINTS: 21
+  NUM_WORKERS: 4
+  PRETRAIN_WEIGHT:
+    HM_NET_PATH: ./model/pretrained_models/net_hm.pth
+    MESH_NET_PATH: ./model/pretrained_models/net_feat_mesh.pth
+    POSE_NET_PATH: ./model/pretrained_models/net_mesh_pose.pth
+2021-09-06 06:56:06,420 hand_shape_pose_inference INFO: Load saved graph from ./output/configs/eval_real_world_testset.yaml/graph_dict.npy.

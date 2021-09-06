@@ -1,0 +1,59 @@
+2021-09-06 07:07:41,030 hand_shape_pose_inference INFO: EVAL:
+  DATASET: real_world_testset
+  PRINT_FREQ: 5
+  SAVE_BATCH_IMAGES_PRED: True
+  SAVE_DIR: ./output
+  SAVE_POSE_ESTIMATION: True
+GRAPH:
+  TEMPLATE_PATH: ./data/0214_lowP_vn_g.0001.obj
+MODEL:
+  BATCH_SIZE: 8
+  DEVICE: cpu
+  HOURGLASS:
+    NUM_FEAT_CHANNELS: 256
+    NUM_MODULES: 2
+    NUM_STAGES: 2
+  NUM_JOINTS: 21
+  NUM_WORKERS: 4
+  PRETRAIN_WEIGHT:
+    HM_NET_PATH: ./model/pretrained_models/net_hm.pth
+    MESH_NET_PATH: ./model/pretrained_models/net_feat_mesh.pth
+    POSE_NET_PATH: ./model/pretrained_models/net_mesh_pose.pth
+2021-09-06 07:07:41,045 hand_shape_pose_inference INFO: Load saved graph from ./output/configs/eval_real_world_testset.yaml/graph_dict.npy.
+2021-09-06 07:07:41,046 hand_shape_pose_inference INFO: Layer 0: M_0 = |V| = 1280 nodes, |E| = 2845 edges
+2021-09-06 07:07:41,046 hand_shape_pose_inference INFO: Layer 1: M_1 = |V| = 640 nodes, |E| = 1734 edges
+2021-09-06 07:07:41,046 hand_shape_pose_inference INFO: Layer 2: M_2 = |V| = 320 nodes, |E| = 932 edges
+2021-09-06 07:07:41,046 hand_shape_pose_inference INFO: Layer 3: M_3 = |V| = 160 nodes, |E| = 490 edges
+2021-09-06 07:07:41,046 hand_shape_pose_inference INFO: Layer 4: M_4 = |V| = 80 nodes, |E| = 267 edges
+2021-09-06 07:07:41,132 hand_shape_pose_inference INFO: lmax: [1.5350166960729208, 1.3921939856604162, 1.1495376588217834, 1.008215594788647]
+2021-09-06 07:07:41,502 hand_shape_pose_inference INFO: Evaluate on 583 frames:
+2021-09-06 07:07:47,645 hand_shape_pose_inference INFO: Evaluate: [8/583]	Average pose estimation error: 10.24 (mm)
+2021-09-06 07:07:47,646 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_0.jpg
+2021-09-06 07:08:22,041 hand_shape_pose_inference INFO: Evaluate: [48/583]	Average pose estimation error: 11.08 (mm)
+2021-09-06 07:08:22,041 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_5.jpg
+2021-09-06 07:08:56,608 hand_shape_pose_inference INFO: Evaluate: [88/583]	Average pose estimation error: 10.66 (mm)
+2021-09-06 07:08:56,608 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_10.jpg
+2021-09-06 07:09:31,195 hand_shape_pose_inference INFO: Evaluate: [128/583]	Average pose estimation error: 11.35 (mm)
+2021-09-06 07:09:31,195 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_15.jpg
+2021-09-06 07:10:05,582 hand_shape_pose_inference INFO: Evaluate: [168/583]	Average pose estimation error: 11.14 (mm)
+2021-09-06 07:10:05,582 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_20.jpg
+2021-09-06 07:10:40,394 hand_shape_pose_inference INFO: Evaluate: [208/583]	Average pose estimation error: 10.97 (mm)
+2021-09-06 07:10:40,394 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_25.jpg
+2021-09-06 07:11:15,428 hand_shape_pose_inference INFO: Evaluate: [248/583]	Average pose estimation error: 10.78 (mm)
+2021-09-06 07:11:15,428 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_30.jpg
+2021-09-06 07:11:50,306 hand_shape_pose_inference INFO: Evaluate: [288/583]	Average pose estimation error: 11.18 (mm)
+2021-09-06 07:11:50,306 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_35.jpg
+2021-09-06 07:12:25,312 hand_shape_pose_inference INFO: Evaluate: [328/583]	Average pose estimation error: 11.14 (mm)
+2021-09-06 07:12:25,312 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_40.jpg
+2021-09-06 07:12:59,999 hand_shape_pose_inference INFO: Evaluate: [368/583]	Average pose estimation error: 11.78 (mm)
+2021-09-06 07:12:59,999 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_45.jpg
+2021-09-06 07:13:34,575 hand_shape_pose_inference INFO: Evaluate: [408/583]	Average pose estimation error: 11.88 (mm)
+2021-09-06 07:13:34,576 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_50.jpg
+2021-09-06 07:14:09,419 hand_shape_pose_inference INFO: Evaluate: [448/583]	Average pose estimation error: 11.62 (mm)
+2021-09-06 07:14:09,420 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_55.jpg
+2021-09-06 07:14:44,194 hand_shape_pose_inference INFO: Evaluate: [488/583]	Average pose estimation error: 11.98 (mm)
+2021-09-06 07:14:44,195 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_60.jpg
+2021-09-06 07:15:19,129 hand_shape_pose_inference INFO: Evaluate: [528/583]	Average pose estimation error: 11.95 (mm)
+2021-09-06 07:15:19,129 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_65.jpg
+2021-09-06 07:15:54,309 hand_shape_pose_inference INFO: Evaluate: [568/583]	Average pose estimation error: 11.97 (mm)
+2021-09-06 07:15:54,309 hand_shape_pose_inference INFO: Saving image: ./output/configs/eval_real_world_testset.yaml/pred_70.jpg

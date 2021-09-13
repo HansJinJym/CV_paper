@@ -11,6 +11,10 @@
 - 我们解决了在动态中捕获全身和手的问题。为此，我们采用了4D人体扫描系统，该系统以每秒60帧的速度捕获完整的3D人体形状。在扫描仪的分辨率下，手可能会非常嘈杂且分辨率低，有时会完全消失。为了恢复手势，修改了4Cap，一种用于DYNA的时间网格配准算法，包括一个简单的速度先验，可以防止在完全没有数据的情况下突然出现手部运动。通过这种方式，我们将SMPL + H拟合至全身4D序列，以恢复身体的固有形状及其变化的姿势，包括手指关节。
 - **总的来说，通过建立的数据集来建立MANO模型，并且可以与SMPL模型结合生成全身模型（SMPL+H），同时解决了手部动态模糊问题**。
 
+## Model
+- 778 vertices + 1538 faces + 21 key-points
+![](https://img-blog.csdnimg.cn/20210409112349613.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2cxMWQxMTE=,size_16,color_FFFFFF,t_70)
+
 ## Reference
 1. https://blog.csdn.net/g11d111/article/details/115539407
 2. https://blog.csdn.net/qq_28115181/article/details/106483950

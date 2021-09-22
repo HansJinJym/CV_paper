@@ -1,8 +1,20 @@
 # Recording Researched Papers in Computer Vision
 
 ## [Classification](https://github.com/HansJinJym/CV_paper/tree/master/Classification)
+- [AlexNet](https://github.com/HansJinJym/CV_paper/tree/master/Classification/AlexNet)
+    - ImageNet Classification with Deep Convolutional Neural Networks
 - [Big Transfer](https://github.com/HansJinJym/CV_paper/tree/master/Classification/Big%20Transfer)
 	- Big Transfer (BiT): General Visual Representation Learning
+- [GoogLeNet inceptionv1](https://github.com/HansJinJym/CV_paper/tree/master/Classification/GoogLeNet%20inceptionv1)
+    - Going deeper with convolutions
+- [GoogLeNet inceptionv2](https://github.com/HansJinJym/CV_paper/tree/master/Classification/GoogLeNet%20inceptionv2)
+    - Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
+- [GoogLeNet inceptionv3](https://github.com/HansJinJym/CV_paper/tree/master/Classification/GoogLeNet%20inceptionv3)
+    - Rethinking the Inception Architecture for Computer Vision
+- [GoogLeNet inceptionv4](https://github.com/HansJinJym/CV_paper/tree/master/Classification/GoogLeNet%20inceptionv4)
+    - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+- [LeNet5](https://github.com/HansJinJym/CV_paper/tree/master/Classification/LeNet5)
+    - Gradient-Based Learning Applied to Document Recognition
 - [RepVGG](https://github.com/HansJinJym/CV_paper/tree/master/Classification/RepVGG)
 	- RepVGG: Making VGG-style ConvNets Great Again
 - [VGG](https://github.com/HansJinJym/CV_paper/tree/master/Classification/VGG)
@@ -11,16 +23,24 @@
 	- Visual Chirality
 
 ## [Estimation](https://github.com/HansJinJym/CV_paper/tree/master/Estimation)
+- [3DHandwithMANO](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/3DHandwithMANO)
+    - 3D Hand Shape and Pose from Images in the Wild
 - [AlphaPose](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/AlphaPose)
 	- RMPE: Regional Multi-Person Pose Estimation
 - [FlowNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FlowNet)
 	- FlowNet: Learning Optical Flow with Convolutional Networks
+- [HandFoldingNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/HandFoldingNet)
+    - HandFoldingNet: A 3D Hand Pose Estimation Network Using Multiscale-Feature Guided Folding of a 2D Hand Skeleton
 - [HandGraphCNN](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/HandGraphCNN)
     - 3D Hand Shape and Pose Estimation from a Single RGB Image
 - [I2L-MeshNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/I2L-MeshNet)
     - I2L-MeshNet: Image-to-Lixel Prediction Network for Accurate 3D Human Pose and Mesh Estimation from a Single RGB Image
+- [MANO](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/MANO)
+    - Embodied Hands: Modeling and Capturing Hands and Bodies Together
 - [MediaPipe](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/MediaPipe)
     - MediaPipe Hands: On-device Real-time Hand Tracking
+- [MinimalHands](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/MinimalHands)
+    - Monocular Real-time Hand Shape and Motion Capture using Multi-modal Data
 - [OpenPose](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/OpenPose)
 	- Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
 

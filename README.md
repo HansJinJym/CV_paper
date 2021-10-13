@@ -55,6 +55,8 @@
 	- MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis
 - [ProGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/ProGAN)
 	- Progressive Growing of GANs for Improved Quality, Stability, and Variation
+- [SWAGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/SWAGAN)
+    - SWAGAN: A Style-based WAvelet-driven Generative Model
 - [SeFa](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/SeFa)
 	- Closed-Form Factorization of Latent Semantics in GANs
 - [StyleCLIP](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleCLIP)
@@ -65,6 +67,8 @@
 	- A Style-Based Generator Architecture for Generative Adversarial Networks
 - [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGANv2)
 	- Analyzing and Improving the Image Quality of StyleGAN
+- [TediGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/TediGAN)
+    - TediGAN: Text-Guided Diverse Face Image Generation and Manipulation
 
 ## [Inpainting](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting)
 - [CPNet](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting/CPNet)

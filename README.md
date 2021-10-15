@@ -68,7 +68,7 @@
 - [ProGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/ProGAN)
 	- Progressive Growing of GANs for Improved Quality, Stability, and Variation
 - [SWAGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/SWAGAN)
-    - SWAGAN: A Style-based WAvelet-driven Generative Model
+    - SWAGAN: A Style-based Wavelet-driven Generative Model
 - [SeFa](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/SeFa)
 	- Closed-Form Factorization of Latent Semantics in GANs
 - [StyleCLIP](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleCLIP)
@@ -81,6 +81,8 @@
 	- Analyzing and Improving the Image Quality of StyleGAN
 - [TediGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/TediGAN)
     - TediGAN: Text-Guided Diverse Face Image Generation and Manipulation
+- [pSp](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/pSp)
+    - Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation
 
 ## [Inpainting](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting)
 - [CPNet](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting/CPNet)

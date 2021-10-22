@@ -77,8 +77,10 @@
 	- Image2StyleGAN - How to Embed Images Into the StyleGAN Latent Space
 - [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN)
 	- A Style-Based Generator Architecture for Generative Adversarial Networks
-- [StyleGANv2](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGANv2)
+- [StyleGAN2](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN2)
 	- Analyzing and Improving the Image Quality of StyleGAN
+- [StyleGAN3](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN3)
+    - Alias-Free Generative Adversarial Networks
 - [TediGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/TediGAN)
     - TediGAN: Text-Guided Diverse Face Image Generation and Manipulation
 - [pSp](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/pSp)

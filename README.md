@@ -85,6 +85,8 @@
     - TediGAN: Text-Guided Diverse Face Image Generation and Manipulation
 - [pSp](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/pSp)
     - Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation
+- [U-GAT-IT](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/U-GAT-IT)
+    - U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer Instance Normalization for Image-to-Image Translation
 
 ## [Inpainting](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting)
 - [CPNet](https://github.com/HansJinJym/CV_paper/tree/master/Inpainting/CPNet)

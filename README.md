@@ -56,9 +56,13 @@
 - [OpenPose](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/OpenPose)
 	- Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
 
-## [GAN](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FlowNet)
+## [GAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN))
 - [AgileGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/AgileGAN)
 	- AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning
+- [AttnGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/AttnGAN)
+    - AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks
+- [ControlGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/ControlGAN)
+    - Controllable Text-to-Image Generation
 - [GFPGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/GFPGAN)
 	- Towards Real-World Blind Face Restoration with Generative Facial Prior
 - [Labels4Free](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/Labels4Free)
@@ -81,6 +85,8 @@
 	- Analyzing and Improving the Image Quality of StyleGAN
 - [StyleGAN3](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN3)
     - Alias-Free Generative Adversarial Networks
+- [Talk-to-Edit](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/Talk-to-Edit)
+    - Talk-to-Edit: Fine-Grained Facial Editing via Dialog
 - [TediGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/TediGAN)
     - TediGAN: Text-Guided Diverse Face Image Generation and Manipulation
 - [pSp](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/pSp)

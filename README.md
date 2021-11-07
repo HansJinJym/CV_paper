@@ -33,6 +33,8 @@
 	- Label Decoupling Framework for Salient Object Detection
 - [LSNet](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/LSNet)
 	- Location-Sensitive Visual Recognition with Cross-IOU Loss
+- [SOLO](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/SOLO)
+    - SOLO: Segmenting Objects by Locations
 
 ## [Estimation](https://github.com/HansJinJym/CV_paper/tree/master/Estimation)
 - [3DHandwithMANO](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/3DHandwithMANO)

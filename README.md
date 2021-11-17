@@ -37,6 +37,9 @@
     - SOLO: Segmenting Objects by Locations
 
 ## [Estimation](https://github.com/HansJinJym/CV_paper/tree/master/Estimation)
+- [3DDFAv1,2](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/3DDFAv1%2C2)
+    - Face Alignment in Full Pose Range: A 3D Total Solution
+    - Towards Fast, Accurate and Stable 3D Dense Face Alignment
 - [3DHandwithMANO](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/3DHandwithMANO)
     - 3D Hand Shape and Pose from Images in the Wild
 - [AlphaPose](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/AlphaPose)
@@ -69,6 +72,8 @@
 	- Towards Real-World Blind Face Restoration with Generative Facial Prior
 - [Labels4Free](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/Labels4Free)
 	- Labels4Free: Unsupervised Segmentation using StyleGAN
+- [ManiGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/ManiGAN)
+    - ManiGAN: Text-Guided Image Manipulation
 - [MobileStyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/MobileStyleGAN)
 	- MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis
 - [ProGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/ProGAN)

@@ -112,3 +112,5 @@
 	- Attention is All You Need
 - [DETR](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/DETR)
 	- End-to-End Object Detection with Transformers
+- [NUWA](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/NUWA)
+    - NUWA: Visual Synthesis Pre-training for Neural visUal World creAtion

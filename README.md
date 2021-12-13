@@ -17,6 +17,8 @@
     - Gradient-Based Learning Applied to Document Recognition
 - [RepVGG](https://github.com/HansJinJym/CV_paper/tree/master/Classification/RepVGG)
 	- RepVGG: Making VGG-style ConvNets Great Again
+- [ResNet](https://github.com/HansJinJym/CV_paper/tree/master/Classification/ResNet)
+    - Deep Residual Learning for Image Recognition
 - [VGG](https://github.com/HansJinJym/CV_paper/tree/master/Classification/VGG)
 	- Very Deep Convolutional Networks for Large-Scale Image Recognition
 - [Visual Chirality](https://github.com/HansJinJym/CV_paper/tree/master/Classification/Visual%20Chirality)

@@ -46,6 +46,8 @@
     - 3D Hand Shape and Pose from Images in the Wild
 - [AlphaPose](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/AlphaPose)
 	- RMPE: Regional Multi-Person Pose Estimation
+- [FER_Survey](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FER_Survey)
+    - Deep Facial Expression Recognition: A Survey
 - [FlowNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/FlowNet)
 	- FlowNet: Learning Optical Flow with Convolutional Networks
 - [HandFoldingNet](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/HandFoldingNet)

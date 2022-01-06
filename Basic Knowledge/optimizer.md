@@ -62,6 +62,16 @@ $$ \hat{m_t} = \frac{m_t}{1-\beta_1^t}\\
     - 为不同的参数计算不同的自适应学习率
     - 也适用于大多非凸优化 - 适用于大数据集和高维空间
 
+## Ranger优化器
+  - RAdam + LookAhead的协同组合。
+  - RAdam利用动态整流器根据方差调整Adam的自适应动量，并有效地提供自动预热，根据当前数据集定制，以确保扎实的训练开始。LookAhead受到深度神经网络损失表面理解的最新进展的启发，并在整个训练期间提供了稳健和稳定探索的突破。**可以很好的适应小样本数据集**。
+  - 效果：训练loss波动振幅明显下降，验证集准确率稳步上升。2021软件杯中，暂未发现最终准确率有提升。
+  - 论文地址
+    RAdam：https://arxiv.org/abs/1908.03265
+    LookAhead：https://arxiv.org/abs/1907.08610v1
+  - 项目地址
+    RAdam：https://github.com/LiyuanLucasLiu/RAdam
+
 
 ## Reference
 [1] [优化器总结](https://mp.weixin.qq.com/s/RB4hh7GHw9-z-O4QlCFMBw)

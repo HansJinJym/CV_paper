@@ -17,6 +17,8 @@
     - Gradient-Based Learning Applied to Document Recognition
 - [RepVGG](https://github.com/HansJinJym/CV_paper/tree/master/Classification/RepVGG)
 	- RepVGG: Making VGG-style ConvNets Great Again
+- [ResNeSt](https://github.com/HansJinJym/CV_paper/tree/master/Classification/ResNeSt)
+    - ResNeSt: Split-Attention Networks
 - [ResNet](https://github.com/HansJinJym/CV_paper/tree/master/Classification/ResNet)
     - Deep Residual Learning for Image Recognition
 - [VGG](https://github.com/HansJinJym/CV_paper/tree/master/Classification/VGG)
@@ -27,6 +29,8 @@
 ## [Detection and Segmentation](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation)
 - [ASNet](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/ASNet)
 	- Salient Object Detection Driven by Fixation Prediction
+- [DeepFake](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/DeepFake)
+    - The Creation and Detection of Deepfakes: A Survey
 - [DeepVS](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/DeepVS)
 	- DeepVS:  Deep Learning Based Video Saliency Prediction Approach
 - [FSOD](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/FSOD)

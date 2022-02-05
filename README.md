@@ -98,6 +98,11 @@
 	- Closed-Form Factorization of Latent Semantics in GANs
 - [StyleCLIP](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleCLIP)
     - StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery
+- [StyleGAN Manipulation](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN%20Manipulation)
+    - GANSpace: Discovering Interpretable GAN Controls
+    - Interpreting the Latent Space of GANs for Semantic Face Editing
+    - StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows
+    - StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation
 - [StyleGAN-Encoder](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN-Encoder)
 	- Image2StyleGAN - How to Embed Images Into the StyleGAN Latent Space
 - [StyleGAN](https://github.com/HansJinJym/CV_paper/tree/master/Generative%20Adversarial%20Networks%20(GAN)/StyleGAN)

@@ -88,6 +88,24 @@
 
 - 首个anchor-free跟踪器
 
+## SiamMaskRCNN
+- ArXiv2018
+- 该文聚焦在一个前沿的问题：给一个包含了未知种类多个实体的没训练过的新样本(the query image)，如何检测以及分割所有这些实例
+- 主要贡献在于
+    - 1.提出siamese Mask R-CNN框架，能够仅给一个样本，就能够较好的检测&分割新的该样本同类实例
+    - 2.构建了一个新的评测标准在MS-COCO
+
+![](https://pic2.zhimg.com/80/v2-e226c65af54e79ac58a6e632df88a80d_1440w.jpg)
+
+- 主要的4处不同已经用红色标识，即R、Siamese、Matching、L1
+    - R代表了输入不仅有Query Image还有Reference Image
+    - SiameseNetwork则对两者分别进行encode
+    - Matching是将编码后的2个feature vector进行逐一的匹配
+    - L1则是算diff的手段
+- Matching流程如下图。融合特征和原始MRCNN编码的特征最大的不同在于包含了Ref和Scene双重信息
+
+![](https://pic4.zhimg.com/80/v2-4c0555a703df4754b04027ba7e8d08a7_1440w.jpg)
+
 ## 总结思考
 - 对于图像对匹配任务：SiamFC排除；SiamRPN、DaSiamRPN、SiamRPN++中，DaSiamRPN解决干扰物问题，在电商场景中不需考虑，另外两种由同一个框架实现，均可尝试；SiamFC++是anchor-free的，同意可以尝试，且开源代码比较新；SiamMask可以额外提供mask预测，属于锦上添花，暂时没有其他作用，暂保留
 
@@ -105,3 +123,4 @@
 - [11 SiamFC++ CSDN](https://blog.csdn.net/qq_35078996/article/details/106165540)
 - [12 github/SiamFC++](https://github.com/MegviiDetection/video_analyst)
 - [13 SiamFC++ code analysis](https://blog.csdn.net/laizi_laizi/article/details/107157268)
+- [14 SiamMaskRCNN zhihu](https://zhuanlan.zhihu.com/p/76820925)

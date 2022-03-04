@@ -64,6 +64,28 @@
 ![](https://images2018.cnblogs.com/blog/75922/201803/75922-20180306112632912-1507870253.jpg)
 
 
+## Mask RCNN
+
+![](https://img-blog.csdnimg.cn/2019082318330652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA5MDE3OTI=,size_16,color_FFFFFF,t_70)
+
+- Faster RCNN使用CNN提取图像特征，然后使用region proposal network（RPN）去提取出ROI，然后使用ROI pooling将这些ROI全部变成固定尺寸，再喂给全连接层进行Bounding box回归和分类预测。Feature Pyramid Network (FPN)则是一种精心设计的多尺度检测方法，结构中包括自下而上，自上而下和横向连接三个部分，如下图所示，这种结构可以将各个层级的特征进行融合，使其同时具有强语义信息和强空间信息。
+
+![](https://pic1.zhimg.com/80/v2-15a45ce0641bbb9cd3af36a58cbf1714_1440w.jpg)
+
+- Mask RCNN主要采用ResNet-FPN形式的网络
+
+![](https://pic4.zhimg.com/80/v2-fc500b77472298d7dacdd303f509c68b_1440w.jpg)
+
+- 本质上，可以用一个公式表示模型之间的关系，MaskRCNN = ResNet-FPN + FastRCNN + mask = FasterRCNN + mask
+
+![](https://pic1.zhimg.com/80/v2-7a539f4d5f904db3c4559ebe6c9ef49c_1440w.jpg)
+
+- Mask RCNN的构建很简单，只是在ROI pooling（实际上用到的是ROIAlign）之后添加卷积层，进行mask预测的任务。整体可分为两部分：骨干网络ResNet-FPN，用于特征提取；头部网络，包括边界框识别（分类和回归）+ mask预测。检测头结构如下
+
+![](https://pic1.zhimg.com/80/v2-a500524ae104ae4eaf9a929befe2ba0c_1440w.jpg)
+
+- 实际上，Mask RCNN中还有一个很重要的改进，就是ROIAlign。Faster R-CNN存在的问题是：特征图与原始图像是不对准的（mis-alignment），所以会影响检测精度。而Mask R-CNN提出了RoIAlign的方法来取代ROI pooling，RoIAlign可以保留大致的空间位置
+
 
 ## Reference
 - [1] [RCNN论文翻译](https://blog.csdn.net/v1_vivian/article/details/78599229)
@@ -72,3 +94,6 @@
 - [4] [FAST RCNN解读](https://zhuanlan.zhihu.com/p/61611588)
 - [5] [Faster RCNN学习笔记](https://www.cnblogs.com/wangyong/p/8513563.html)
 - [6] [Faster RCNN详解](https://blog.csdn.net/weixin_43198141/article/details/90178512)
+- [7] [Mask RCNN知乎介绍](https://zhuanlan.zhihu.com/p/37998710)
+- [8] [Mask RCNN解读](https://blog.csdn.net/u010901792/article/details/100044200)
+- [9] [Mask RCNN useful links](https://blog.csdn.net/chao_shine/article/details/85917280)

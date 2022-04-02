@@ -134,7 +134,11 @@
 ## [Transformer](https://github.com/HansJinJym/CV_paper/tree/master/Transformer)
 - [Attention](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/Attention)
 	- Attention is All You Need
+- [CLIP](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/CLIP)
+    - Learning Transferable Visual Models From Natural Language Supervision
 - [DETR](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/DETR)
 	- End-to-End Object Detection with Transformers
+- [GLIDE](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/GLIDE)
+    - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
 - [NUWA](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/NUWA)
     - NUWA: Visual Synthesis Pre-training for Neural visUal World creAtion

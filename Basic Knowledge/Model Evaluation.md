@@ -5,10 +5,11 @@
 - recall 召回率/查全率
 - F1-score
 - PRC
+- AP, mAP
 - ROC和AUC
 - IOU
 
-## confusion matrix, precision, recall, PRC, F1-score
+## confusion matrix, precision, recall, PRC, F1-score, mAP
 
 ![](https://images2018.cnblogs.com/blog/1093303/201802/1093303-20180224204329655-1160264310.png)
 
@@ -35,6 +36,8 @@
 - BEP相对比较简化，F1-score更为常用，因为是一个综合考虑了precision和recall的指标
 
 ![](https://images2018.cnblogs.com/blog/1093303/201802/1093303-20180224205027586-434414606.png)
+
+- AP即average precision，指PR曲线下的面积，mAP为mean average precision，是各个类别AP的平均值。APr、APm、APf分别为数据稀有类、中等类、常见类的AP
 
 ## ROC，AUC
 - ROC全称是“受试者工作特征”（Receiver Operating Characteristic）曲线，ROC曲线以“真正例率”（TPR）为Y轴，以“假正例率”（FPR）为X轴，对角线对应于“随机猜测”模型，而（0,1）则对应“理想模型”。ROC形式如下图所示。

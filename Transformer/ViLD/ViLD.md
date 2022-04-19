@@ -40,3 +40,12 @@
     - 推理速度很慢，因为每一个ROI都要预测
 - ViLD
     - 解决推理速度问题
+
+- Model ensembling
+
+## 实验
+- 采用CLIP当作开放词表分类模型
+- Benchmark on LVIS and COCO
+- 在训练时，让模型同时接触base类和novel类，效果会更好（AR指标更高）
+- ALIGN做教师网络
+- 文本和图像双重embedding比文本embedding+图像crop的方式指标要高很多

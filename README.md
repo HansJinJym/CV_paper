@@ -142,3 +142,7 @@
     - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
 - [NUWA](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/NUWA)
     - NUWA: Visual Synthesis Pre-training for Neural visUal World creAtion
+- [OVR-CNN](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/OVR-CNN)
+    - Open-Vocabulary Object Detection Using Captions
+- [ViLD](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/ViLD)
+    - Open-Vocabulary Object Detection via Vision and Language Knowledge Distillation

@@ -50,6 +50,13 @@
 ![](https://img-blog.csdnimg.cn/20190513172012121.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE5ODE0MQ==,size_16,color_FFFFFF,t_70)
 ![](https://img-blog.csdnimg.cn/20190513172334327.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzE5ODE0MQ==,size_16,color_FFFFFF,t_70)
 
+- Faster R-CNN是一种两阶段（two-stage）方法,它提出的RPN网络取代了选择性搜索（Selective search）算法后使检测任务可以由神经网络端到端地完成。在结构上，Faster RCNN将特征抽取(feature extraction)，候选区域提取（Region proposal提取），边框回归（bounding box regression），分类（classification）都整合在了一个网络中，使得综合性能有较大提高，在检测速度方面尤为明显。
+- RPN网络的作用： RPN专门用来提取候选框，一方面RPN耗时少，另一方面RPN可以很容易结合到Fast RCNN中，成为一个整体。
+- RPN网络的实现细节：一个特征图（Faster RCNN的公共Feature Map）经过sliding window处理，得到256维特征，对每个特征向量做两次全连接操作，一个得到2个分数，一个得到4个坐标{然后通过两次全连接得到结果2k个分数和4k个坐标[k指的是由锚点产生的K个框(K anchor boxes)]。2个分数，因为RPN是提候选框，还不用判断类别，所以只要求区分是不是物体就行，那么就有两个分数，前景（物体）的分数，和背景的分数； 4个坐标是指针对原图坐标的偏移，首先一定要记住是原图；预先设定好共有9种组合，所以k等于9，最后我们的结果是针对这9种组合的，所以有H x W x 9个结果，也就是18个分数和36个坐标。
+- 前向步骤：输入一张待检测图片->vgg16网络conv layers提取整张图片的特征，输出feature map分别输入到RPN和Fast RCNN网络开头->RPN网络得出region proposal，将这些候选框信息送入到Fast RCNN网络开头->利用候选框在之前送到的feature map提取特征，并通过ROI Pooling层得到规定大小的feature map->将这些feature map送入Fast RCNN网络中进行分类和回归坐标，最终得到需检测物体的坐标。
+
+![](Fig/RPN.jpeg)
+
 - Faster R-CNN由下面几部分组成：
     - 1. 数据集，image input
     - 2. 卷积层CNN等基础网络，提取特征得到feature map
@@ -97,3 +104,4 @@
 - [7] [Mask RCNN知乎介绍](https://zhuanlan.zhihu.com/p/37998710)
 - [8] [Mask RCNN解读](https://blog.csdn.net/u010901792/article/details/100044200)
 - [9] [Mask RCNN useful links](https://blog.csdn.net/chao_shine/article/details/85917280)
+- [10] [极市平台 目标检测面经梳理](https://mp.weixin.qq.com/s/h0x6ThBtDZDO-TVcohQNlA)

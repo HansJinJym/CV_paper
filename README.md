@@ -132,6 +132,8 @@
 	- Deep Video Inpainting
 
 ## [Transformer](https://github.com/HansJinJym/CV_paper/tree/master/Transformer)
+- [ALBEF](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/ALBEF)
+    - Align before Fuse: Vision and Language Representation Learning with Momentum Distillation
 - [Attention](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/Attention)
 	- Attention is All You Need
 - [CLIP](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/CLIP)

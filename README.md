@@ -52,6 +52,8 @@
     - SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines
 - [SOLO](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/SOLO)
     - SOLO: Segmenting Objects by Locations
+- [Scene Parsing with Object Instances and Occlusion Ordering](https://github.com/HansJinJym/CV_paper/tree/master/Detection%20and%20Segmentation/Scene%20Parsing%20with%20Object%20Instances%20and%20Occlusion%20Ordering)
+    - Scene Parsing with Object Instances and Occlusion Ordering
 
 ## [Estimation](https://github.com/HansJinJym/CV_paper/tree/master/Estimation)
 - [3DDFAv1,2](https://github.com/HansJinJym/CV_paper/tree/master/Estimation/3DDFAv1%2C2)

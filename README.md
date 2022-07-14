@@ -142,6 +142,8 @@
 	- End-to-End Object Detection with Transformers
 - [GLIDE](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/GLIDE)
     - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
+- [LAVT](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/LAVT)
+    - LAVT: Language-Aware Vision Transformer for Referring Image Segmentation
 - [NUWA](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/NUWA)
     - NUWA: Visual Synthesis Pre-training for Neural visUal World creAtion
 - [OVR-CNN](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/OVR-CNN)

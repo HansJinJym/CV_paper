@@ -152,3 +152,5 @@
     - Open-Vocabulary Object Detection Using Captions
 - [ViLD](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/ViLD)
     - Open-Vocabulary Object Detection via Vision and Language Knowledge Distillation
+- [ViT](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/ViT)
+    - An Image is Worth 16X16 Words: Transformers for Image Recognition at Scale

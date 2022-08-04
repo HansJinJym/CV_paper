@@ -138,6 +138,8 @@
     - Align before Fuse: Vision and Language Representation Learning with Momentum Distillation
 - [Attention](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/Attention)
 	- Attention is All You Need
+- [BERT](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/BERT)
+    - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 - [CLIP](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/CLIP)
     - Learning Transferable Visual Models From Natural Language Supervision
 - [DETR](https://github.com/HansJinJym/CV_paper/tree/master/Transformer/DETR)
